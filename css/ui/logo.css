@@ -1,12 +1,3 @@
-.svg-box {
+.logo {
     width: 100%;
-    height: 0;
-    padding-top: 100%; /* Aspect ratio */ 
-    position: relative;
-}
-
-.svg-box-content {
-    position: absolute;
-    top: 0;
-    left: 0;
 }
