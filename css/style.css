@@ -4,5 +4,8 @@
 @import 'vendor/blanka.css';
 @import 'vendor/blanka-helpers.css';
 
-@import 'core/variables.css';
-@import 'ui/logo.css';
+@import 'document/document.css';
+@import 'document/fonts.css';
+@import 'document/line.css';
+@import 'document/scale.css';
+
