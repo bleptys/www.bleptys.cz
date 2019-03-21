@@ -1,11 +1,6 @@
-@import url('https://fonts.googleapis.com/css?family=Marcellus+SC|Roboto:400,400i,700&subset=latin-ext');
-
 @import 'vendor/normalize.css';
 @import 'vendor/blanka.css';
 @import 'vendor/blanka-helpers.css';
 
 @import 'document/document.css';
-@import 'document/fonts.css';
-@import 'document/line.css';
-@import 'document/scale.css';
 
