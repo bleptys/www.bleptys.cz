@@ -1,0 +1,78 @@
+<!doctype html>
+<html>
+<body>
+<h1>
+<p>Prosím vyplňte celý formulář a odešlete ho. Data z formuláře nebudou použity k žádnému rozesílání spamu ani reklamačních nabídek. Slouží pouze k rezervačním účelům.</p>
+
+<form role="form" method="post" action="action_page.php" enctype="multipart/form-data">
+ <fieldset>
+  <h2>Formulář</h2>
+  <ul>
+   <li>
+    <label for="jmenoaprijmeni">
+	 Jméno a příjmení:</label><br>
+	 <input type="text" id="jmenoaprijmeni" name="jmenoaprijmeni" placeholder="Jan Novák" required="required" autofocus="autofocus"><br>
+	 </li>
+	 <li>
+	 <label for="adresa">Adresa:</label><br>
+	 <input type="text" id="adresa" name="adresa" required="required" placeholder="Hradecká 22"><br>
+	 </li>
+	 <li>
+	 <label for="mesto">Město:</label><br>
+	 <input type="text" id="mesto" name="mesto" required="required" placeholder="Opava"><br>
+	 </li>
+	 <li>
+	 <label for="psc">PSČ:</label><br>
+	 <input type="number" id="psc" name="psc" required="required" placeholder="74601"><br>
+	 </li>
+	 <li>
+	 <label for="telefon">Telefon:</label><br>
+	 <input type="tel" id="telefon" name="telefon" required="required" placeholder="777333888"><br>
+	 </li>
+	 <li>
+	 <label for="email">Email:</label><br>
+	 <input type="email" id="email" name="email" required="required" placeholder="barborkapraded@gmail.com"><br>
+	 </li>
+	 <li>
+	 <label for="zacatekpobytu">Začátek pobytu:</label><br>
+	 <input type="date" id="zacatekpobytu" name="zacatekpobytu" required="required"><br>
+	 </li>
+	 <li>
+	 <label for="ukoncenipobytu">Ukončení pobytu:</label><br>
+	 <input type="date" id="ukoncenipobytu" name="ukoncenipobytu" required="required"><br>
+	 </li>
+	 <li>
+	 <label for="pocetdospelych">Počet dospělých:</label><br>
+	 <input type="number" id="pocetdospelych" name="pocetdospelych" placeholder="9"><br>
+	 </li>
+	 <li>
+	 <label for="dospelapolopenze">Dospělá polopenze:</label><br>
+	 <input type="number" id="dospelapolopenze" name="dospelapolopenze" placeholder="9"><br>
+	 <li>
+	 <label for="pocetdeti">Počet dětí:</label><br>
+	 <input type="number" id="pocetdeti" name="pocetdeti" placeholder="8"><br>
+	 </li>
+	 <li>
+	 <label for="detskapolopenze">Dětská polopenze:</label><br>
+	 <input type="number" id="detskapolopenze" name="detskapolopenze" placeholder="8"><br>
+	 </li>
+	 <li>
+	 <label for="domacimazlicek">Domácí mazlíček:</label><br>
+	 <input type="number" id="domacimazlicek" name="domacimazlicek" placeholder="2"><br>
+	 </li>
+	 <li><!-- Jeste pridat SPZ -->
+	 <label for="pocetaut">Počet aut:</label><br>
+	 <input type="number" id="pocetaut" name="pocetaut" placeholder="3"><br>
+	 </li>
+	 <li>
+	 <label for="dotazy">Dotazy...</label><br>
+	 <textarea id="dotazy" name="dotazy" rows="4" cols="50"></textarea><br>
+	 </li><br>
+	 <br>
+	 <input type="submit">
+	</ul>
+</form>
+
+</body>
+
+</html>
