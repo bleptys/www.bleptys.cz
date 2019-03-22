@@ -1,13 +1,4 @@
-@import url("//hello.myfonts.net/count/36ca25");
-@font-face {font-family: 'LeamingtonSerial-Black';src: url('webfonts/36CA25_0_0.eot');src: url('webfonts/36CA25_0_0.eot?#iefix') format('embedded-opentype'),url('webfonts/36CA25_0_0.woff2') format('woff2'),url('webfonts/36CA25_0_0.woff') format('woff'),url('webfonts/36CA25_0_0.ttf') format('truetype');}
-@font-face {font-family: 'LeamingtonSerial-Bold';src: url('webfonts/36CA25_1_0.eot');src: url('webfonts/36CA25_1_0.eot?#iefix') format('embedded-opentype'),url('webfonts/36CA25_1_0.woff2') format('woff2'),url('webfonts/36CA25_1_0.woff') format('woff'),url('webfonts/36CA25_1_0.ttf') format('truetype');}
-@font-face {font-family: 'LeamingtonSerial-Light';src: url('webfonts/36CA25_2_0.eot');src: url('webfonts/36CA25_2_0.eot?#iefix') format('embedded-opentype'),url('webfonts/36CA25_2_0.woff2') format('woff2'),url('webfonts/36CA25_2_0.woff') format('woff'),url('webfonts/36CA25_2_0.ttf') format('truetype');}
-@font-face {font-family: 'LeamingtonSerial-LightItalic';src: url('webfonts/36CA25_3_0.eot');src: url('webfonts/36CA25_3_0.eot?#iefix') format('embedded-opentype'),url('webfonts/36CA25_3_0.woff2') format('woff2'),url('webfonts/36CA25_3_0.woff') format('woff'),url('webfonts/36CA25_3_0.ttf') format('truetype');}
-@font-face {font-family: 'LeamingtonSerial';src: url('webfonts/36CA25_4_0.eot');src: url('webfonts/36CA25_4_0.eot?#iefix') format('embedded-opentype'),url('webfonts/36CA25_4_0.woff2') format('woff2'),url('webfonts/36CA25_4_0.woff') format('woff'),url('webfonts/36CA25_4_0.ttf') format('truetype');}
-
-@import 'vendor/normalize.css';
-@import 'vendor/blanka.css';
-@import 'vendor/blanka-helpers.css';
-
-@import 'document/document.css';
-
+@import 'normalize.css';
+@import 'blanka.css';
+@import 'blanka-helpers.css';
+@import 'dokument.css';
