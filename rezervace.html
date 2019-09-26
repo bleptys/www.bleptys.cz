@@ -51,13 +51,9 @@
 		</header>
 
         <main id="main" role="main" class="hlavni-obsah">
-            
-			<article>
-				<h1>
-<p>Prosím vyplňte celý formulář a odešlete ho. Data z formuláře nebudou použity k žádnému rozesílání spamu ani reklamačních nabídek. Slouží pouze k rezervačním účelům.</p>
-
+            <article>
 <form role="form" method="post" action="action_page.php" enctype="multipart/form-data">
- <fieldset>
+<fieldset>
   <h2>Formulář</h2>
   <ul>
    <li>
@@ -95,7 +91,9 @@
 	 </li>
 	 <li>
 	 <label for="pocetdospelych">Počet dospělých:</label><br>
-	 <input type="number" id="pocetdospelych" name="pocetdospelych" placeholder="9"><br>
+	 <input type="select" id="pocetdospelych" name="pocetdospelych">
+		<option value="1">1</option>
+		<option value="2">2</option>
 	 </li>
 	 <li>
 	 <label for="dospelapolopenze">Dospělá polopenze:</label><br>
