@@ -76,13 +76,27 @@
 				<input type="email" id="email" name="email" required="required" placeholder="barborkapraded@gmail.com" data-js="email"><br>
 					
 			<label for="zacatekpobytu">Začátek pobytu:</label><br>
-				<input type="date" id="zacatekpobytu" name="zacatekpobytu" required="required" onchange="cal()"><br>
+				<input type="date" id="pick_date" name="pickup_date" onchange="cal()"><br>
 					
-			<label for="ukoncenipobytu">Ukončení pobytu:</label><br>
-				<input type="date" id="ukoncenipobytu" name="ukoncenipobytu" required="required" onchange="cal()"><br>
 			
-			<input type="text" id="numdays2" name="numdays2"><br>
+			
+			
+			<label for="ukoncenipobytu">Ukončení pobytu:</label><br>
+				<input type="date" id="drop_date" name="dropoff_date" onchange="cal()"><br>
+			
+			<input type="text" id="numdays2" name="numdays"><br>
 						
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
 			<label for="pocetdospelych">Počet dospělých:</label><br>
 				<input type="number" id="pocetdospelych" name="pocetdospelych" data-js="pocetdospelych"><br>
 					
@@ -112,7 +126,7 @@
 		</fieldset>
 </form>
 </div>
-<script src="js/script.js"></script>
+<script type="text/javascript" src="script.js"></script>
 </body>
 
 </html>
