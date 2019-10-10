@@ -1,5 +1,3 @@
-<script type="text/javascript">
-
 function GetDays(){
 	var dropdt = new Date(document.getElementById("ukoncenipobytu").value);
 	var pickdt = new Date(document.getElementById("zacatekpobytu").value);
@@ -11,4 +9,3 @@ function cal(){
 		(document.getElementById("numdays2").value=GetDays();
 }
 }
-</script>
