@@ -84,7 +84,7 @@
 			<label for="ukoncenipobytu">Ukončení pobytu:</label><br>
 				<input type="date" id="drop_date" name="dropoff_date" onchange="cal()"><br>
 			
-			<input type="text" id="numdays2" name="numdays"><br>
+			<input type="number" id="numdays2" name="numdays"><br>
 						
 			
 			
@@ -98,22 +98,24 @@
 			
 			
 			<label for="pocetdospelych">Počet dospělých:</label><br>
-				<input type="number" id="pocetdospelych" name="pocetdospelych" data-js="pocetdospelych"><br>
+				<input type="number" id="pocetdospelych" name="pocetdospelych" onchange="cal()"><br>
 					
 			<label for="dospelapolopenze">Dospělá polopenze:</label><br>
-				<input type="number" id="dospelapolopenze" name="dospelapolopenze" placeholder="9" data-js="dospelapolopenze"><br>
+				<input type="number" id="dospelapolopenze" name="dospelapolopenze" placeholder="9" onchange="cal()"><br>
 					
 			<label for="pocetdeti">Počet dětí:</label><br>
-				<input type="number" id="pocetdeti" name="pocetdeti" placeholder="8" data-js="početí"><br>
+				<input type="number" id="pocetdeti" name="pocetdeti" placeholder="8" onchange="cal()"><br>
 					
 			<label for="detskapolopenze">Dětská polopenze:</label><br>
-				<input type="number" id="detskapolopenze" name="detskapolopenze" placeholder="8" data-js="detskapolopenze"><br>
+				<input type="number" id="detskapolopenze" name="detskapolopenze" placeholder="8" onchange="cal()"><br>
 					
 			<label for="domacimazlicek">Domácí mazlíček:</label><br>
-				<input type="number" id="domacimazlicek" name="domacimazlicek" placeholder="2" data-js="domacimazlicek"><br>
+				<input type="number" id="domacimazlicek" name="domacimazlicek" placeholder="2" onchange="cal()"><br>
 			
             <label for="pocetaut">Počet aut:</label><br>
-                <input type="number" id="pocetaut" name="pocetaut" placeholder="3" data-js="pocetaut"><br>
+                <input type="number" id="pocetaut" name="pocetaut" placeholder="3" onchange="cal()"><br>
+				
+			<input type="text" id="celkem" name="celkem">
 
             <label for="dotazy">Dotazy...</label><br>
                 <textarea id="dotazy" name="dotazy" rows="4" cols="50" data-js="dotazy"></textarea><br>
