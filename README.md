@@ -1,2 +1,2 @@
 # barborka
-bleptys.github.io
+bleptys.cz
